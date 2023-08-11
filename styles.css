@@ -1,0 +1,142 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 200px;
+    background-color: #1f2937;
+}
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-links {
+    flex: 1;
+    gap: 4px;
+}
+
+.hero-container {
+    display: flex;
+    background-color: #1f2937;
+    padding: 150px 200px;
+    gap:10px;
+}
+
+.hero-main {
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sign-up-button {
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 4px 8px;
+}
+
+.hero-image {
+    background-color: grey;
+    flex: 0 0 140px;
+    height: 64px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    background-color: white;
+    padding: 0px 200px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    margin: 30px auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.placeholder-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    border: 2px solid #3882f6;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 400px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    color:#1f2937;
+    font-size: 36px;
+    font-style:italic;
+    font-weight: light;
+}
+
+.quotee {
+    text-align:right;
+}
+
+.call-to-action-container {
+    background-color: white;
+    padding: 70px 100px;
+}
+
+.call-to-action-content {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action-text {
+
+}
+
+.footer {
+    background-color: #1f2937;
+}
